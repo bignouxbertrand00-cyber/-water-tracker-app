@@ -23,7 +23,7 @@ jobs:
       run: if [ -f gradlew ]; then chmod +x gradlew; fi
 
     - name: Generate Gradle Wrapper (if missing)
-      run: if [ ! -f gradlew ]; then gradle wrapper; fi
+      run: if [ ! -f gradlew ]; then gradle wrapper --gradle-version 9.3.1; fi
 
     - name: Build Release AAB
       run: ./gradlew bundleRelease
