@@ -1,0 +1,6 @@
+{
+  "name": "Water Tracker",
+  "description": "A beautiful, premium Water Intake Tracker with custom hydration calculation based on profile, smart interval reminders, climate adjustments, and exercise logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

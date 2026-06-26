@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Droplet Drop Shadow -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M 54,20 C 54,20 30,52 30,72 A 24,24 0 0,0 78,72 C 78,52 54,20 54,20 Z" />
+
+    <!-- Main Water Droplet Shape with Fluid Gradient -->
+    <path android:pathData="M 54,16 C 54,16 30,48 30,68 A 24,24 0 0,0 78,68 C 78,48 54,16 54,16 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="78"
+                android:endY="92"
+                android:startX="30"
+                android:startY="16"
+                android:type="linear">
+                <item android:color="#7CE8F4" android:offset="0.0" />
+                <item android:color="#2D82B7" android:offset="0.5" />
+                <item android:color="#0B3C5D" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass Reflection Overlay -->
+    <path android:pathData="M 40,64 C 38,68 38,72 41,74 C 44,76 46,73 45,71 C 44,69 46,67 47,65 C 48,63 48,60 45,58 C 42,56 42,60 40,64 Z"
+        android:fillColor="#70FFFFFF" />
+        
+    <!-- Tiny droplet shine -->
+    <path android:pathData="M 54,28 A 2.2,2.2 0 1,1 54,23.6 A 2.2,2.2 0 1,1 54,28 Z"
+        android:fillColor="#BFFBFF" />
+</vector>
