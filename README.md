@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="" />
+
 </div>
 
 
@@ -12,7 +12,7 @@ View your app in : https://ai.studio/apps/ccc90619-0d2e-46d2-95d4-ecaba16bfb1a
 **Prerequisites:**  [Android Studio](https://developer.android.com/studio)
 
 
-1. Open Android Studio
+1
 2. Select **Open** and choose the directory containing this project
 3. Allow Android Studio to fix any incompatibilities as it imports the project.
 4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
